@@ -6,7 +6,12 @@ namespace k173669_Lab1_Q4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            double sum = Calculator.Add(1, 2, 3, 4);
+            Console.WriteLine($"Calculator.Add(1, 2, 3, 4) = {sum}");
+
+            double product = Calculator.Multiply(4, 7, 9);
+            Console.WriteLine($"Calculator.Multiply(4, 7, 9) = {product}");
+
         }
     }
 }

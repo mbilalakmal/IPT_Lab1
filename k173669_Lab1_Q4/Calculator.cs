@@ -51,7 +51,7 @@ namespace k173669_Lab1_Q4
         public static double Multiply(params double[] args)
         {
             {
-                double product = 0;
+                double product = 1;
                 foreach (double arg in args)
                 {
                     product *= arg;
